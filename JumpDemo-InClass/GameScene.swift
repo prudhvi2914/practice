@@ -24,6 +24,12 @@ class GameScene: SKScene {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         print("TOUCHED THE SCREEN")
+        
+        let jumpAction = SKAction.applyImpulse(
+            CGVector(dx:0, dy:3000),
+            duration: 0.5)
+        
+        self.robot!.run(jumpAction)
     }
     
     
