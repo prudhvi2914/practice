@@ -22,4 +22,9 @@ class GameScene: SKScene {
         self.poo = self.childNode(withName:"poop")
     }
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print("TOUCHED THE SCREEN")
+    }
+    
+    
 }
