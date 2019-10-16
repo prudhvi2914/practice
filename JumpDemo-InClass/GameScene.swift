@@ -12,7 +12,7 @@ import GameplayKit
 class GameScene: SKScene {
     
     // make "outlets" for your sprites
-    // outlets = variables to represent your sprites
+    // outlets = variables to represen    l dsmam;alsmc;lmast your sprites
     var robot:SKNode?
     var poo:SKNode?
     
